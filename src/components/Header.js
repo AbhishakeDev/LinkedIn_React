@@ -8,8 +8,8 @@ import SupervisorAccountIcon from '@material-ui/icons/SupervisorAccount';
 import BusinessCenterIcon from '@material-ui/icons/BusinessCenter';
 import ChatIcon from '@material-ui/icons/Chat';
 import NotificationsIcon from '@material-ui/icons/Notifications';
-import { logout } from './features/userSlice';
-import { auth } from './firebase';
+import { logout } from '../features/userSlice';
+import { auth } from '../firebase';
 
 const Header = () => {
   const dispatch = useDispatch();

@@ -7,10 +7,10 @@ import CalendarViewDayIcon from '@material-ui/icons/CalendarViewDay';
 import CreateIcon from '@material-ui/icons/Create';
 import InputOptions from './InputOptions';
 import Post from './Post';
-import { db } from './firebase';
+import { db } from '../firebase';
 import firebase from 'firebase';
 import { useSelector } from 'react-redux';
-import { selectUser } from './features/userSlice';
+import { selectUser } from '../features/userSlice';
 import FlipMove from 'react-flip-move';
 
 const Feed = () => {
